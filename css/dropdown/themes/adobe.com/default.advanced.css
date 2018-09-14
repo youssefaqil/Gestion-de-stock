@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+@import "default.css";
+
+
+
+
+ul.dropdown li a {
+ display: block;
+ padding: 7px 12px;
+}
+
+
+
+
+ul.dropdown li {
+ padding: 0;
+}
+
+
+
+ul.dropdown li.dir {
+ padding: 7px 20px 7px 12px;
+}
+
+ul.dropdown ul li.dir {
+ padding-right: 15px;
+}
+
+
+
+ul.dropdown ul a {
+ padding: 4px 5px 4px 12px;
+}
+
+ul.dropdown ul a:hover {
+ padding: 3px 5px 3px 11px;
+ border: solid 1px #ddd;
+ background-color: #eee;
+ font-weight: bold;
+}

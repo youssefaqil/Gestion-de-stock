@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+@import "default.css";
+
+
+ul.dropdown li a {
+ display: block;
+ padding: 5px 30px;
+}
+
+
+ul.dropdown li {
+ padding: 0;
+}
+
+ul.dropdown ul a {
+ padding: 8px;
+}
+
+ul.dropdown *.dir { /* POI */
+ padding: 5px 30px;
+}
+
+ul.dropdown ul *.dir {
+ padding: 8px 30px 8px 8px;
+}
+
+
+ul.dropdown ul li.dir ul {
+ margin-top: -1px ;
+ margin-left: 1px;
+}
+
+
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ border-top-color: #5b5b5b;
+ background-color: #3d3d3d;
+}
+
+	ul.dropdown ul li.hover,
+	ul.dropdown ul li:hover {
+	 background: #4c4c4c url(../../../../images/mtv.com/comnav-arrowover.png) 100% 50% no-repeat;
+	}
+
+		ul.dropdown ul ul li.hover,
+		ul.dropdown ul ul li:hover {
+		 background: #595959 url(../../../../images/mtv.com/comnav-arrowover2.png) 100% 50% no-repeat;
+		}
+
+
+
+ul.dropdown ul li:hover > a.dir {
+ border-top-color: #5b5b5b;
+ background-image: url(../../../../images/mtv.com/comnav-arrowover.png);
+}
+
+ul.dropdown ul ul li:hover > a.dir { 
+ border-top-color: #595959;
+ background: #595959 url(../../../../images/mtv.com/comnav-arrowover2.png) 100% 50% no-repeat;
+ color: #fff;
+}
+
+
+ul.dropdown ul li:hover > a.dir:hover { 
+ background: #4698ca url(../../../../images/mtv.com/comnav-arrowon.png) 100% 50% no-repeat;
+ color: #fff;
+}

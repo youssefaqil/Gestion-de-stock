@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+
+@import "default.css";
+
+
+ul.dropdown li a {
+ display: block;
+ padding: 7px 14px;
+}
+
+
+ul.dropdown li {
+ padding: 0;
+}
+
+
+ul.dropdown li.dir {
+ padding: 7px 20px 7px 14px;
+}
+
+ul.dropdown ul li.dir {
+ padding-right: 15px;
+}
+
+
+ul.dropdown ul a {
+ padding: 4px 5px 4px 14px;
+ width: 151px; 
+}
+
+ul.dropdown ul a:hover {
+ background-color: #76b900;
+}
+
+
+ul.dropdown li:hover > a.dir {
+ background-color: #2e2e2e;
+ color: #76b900;
+}
+
+ul.dropdown ul li:hover > a.dir {
+ background-color: #76b900;
+ color: #fff;
+}

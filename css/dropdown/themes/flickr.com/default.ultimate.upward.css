@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import "default.ultimate.css";
+
+
+
+
+ul.dropdown-upward {
+ padding: 1px 0 0;
+ background-position: 0 0;
+}
+
+	ul.dropdown-upward li.divider {
+	 border-top: none;
+	 border-bottom: solid 1px #e5e5e5;
+	}
+
+	ul.dropdown-upward ul {
+	 border-color: #666 #666 #f0f0f0 #f0f0f0;
+	}
+
+
+
+
+ul.dropdown-upward li a,
+ul.dropdown-upward *.dir {
+ border-width: 0 1px 1px;
+}
+
+
+
+
+ul.dropdown-upward li:hover > *.dir {
+ margin: -1px 0 0;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-color: #f0f0f0 #666 #f0f0f0  #f0f0f0;
+}
+
+	ul.dropdown-upward ul li:hover > *.dir {
+	 padding-top: 4px;
+	 border: none;
+	}

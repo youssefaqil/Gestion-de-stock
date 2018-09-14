@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import "dropdown.css";
+
+ul.dropdown-upward ul {
+ top: auto !important;
+ bottom: 100%;
+}
+
+ul.dropdown-upward ul ul {
+ bottom: 1px;
+}
